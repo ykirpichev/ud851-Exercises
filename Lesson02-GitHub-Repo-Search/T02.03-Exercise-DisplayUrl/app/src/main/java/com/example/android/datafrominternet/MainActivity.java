@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mUrlDisplayTextView = (TextView) findViewById(R.id.tv_url_display);
         mSearchResultsTextView = (TextView) findViewById(R.id.tv_github_search_results_json);
     }
-    
+
     void makeGithubSearchQuery() {
         String query = mSearchBoxEditText.getText().toString();
         URL url = NetworkUtils.buildUrl(query);
