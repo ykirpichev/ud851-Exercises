@@ -3,6 +3,7 @@
     package="com.udacity.example.quizexample">
 
     <uses-permission android:name="com.example.udacity.droidtermsexample.TERMS_READ"/>
+    <uses-permission android:name="com.example.udacity.droidtermsexample.data.DroidTermsProvider.TERMS_READ"/>
 
     <application
         android:allowBackup="true"

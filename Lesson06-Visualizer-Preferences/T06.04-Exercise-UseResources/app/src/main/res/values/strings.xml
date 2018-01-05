@@ -6,7 +6,6 @@
     <!-- - - - - - - - - - - - - - - -
           - Used by Preferences  -
           - - - - - - - - - - - - - - - -->
-    <!-- TODO (1) Add Strings for checkbox preference -->
 
     <!-- Value in SharedPreferences for red color option -->
     <string name="pref_color_red_value" translatable="false">red</string>
@@ -16,4 +15,9 @@
 
     <!-- Value in SharedPreferences for green color option -->
     <string name="pref_color_green_value" translatable="false">green</string>
+    <string name="pref_bass_key_value">show_bass</string>
+    <string name="pref_bass_summary_off_value">Hidden</string>
+    <string name="pref_bass_summary_on_value">Shown</string>
+    <string name="pref_bass_title_value">Show Bass</string>
+    <bool name="pref_bass_default_value">true</bool>
 </resources>
